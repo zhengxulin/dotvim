@@ -9,7 +9,6 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 
 " plugin management
 NeoBundleFetch 'Shougo/neobundle.vim'
-
 " file tree
 NeoBundle 'scrooloose/nerdtree'
 " file tree and tabs interaction
@@ -20,8 +19,6 @@ NeoBundle 'scrooloose/nerdcommenter'
 NeoBundle 'kien/ctrlp.vim'
 " popup completion menu
 NeoBundle 'AutoComplPop'
-" tags list navigation
-NeoBundle 'taglist.vim'
 " yank history
 NeoBundle 'YankRing.vim'
 " git integration
@@ -40,8 +37,6 @@ NeoBundle 'rking/ag.vim'
 NeoBundle 'austintaylor/vim-indentobject'
 " global search & replace
 NeoBundle 'greplace.vim'
-" better looking statusline
-NeoBundle 'bling/vim-airline'
 " plugin for resolving three-way merge conflicts
 NeoBundle 'sjl/splice.vim'
 " plugin for visually displaying indent levels
